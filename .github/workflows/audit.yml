@@ -1,0 +1,13 @@
+
+name: IITM Audit
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 25f1002172@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
